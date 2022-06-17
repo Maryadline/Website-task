@@ -36,14 +36,15 @@ main{
     width: auto;
 }
 .content h1{
-    width: 50%;
+    width: 70%;
     /* padding-bottom: 10px; */
-    font-weight: 700;
+    font-weight: 700px;
+    font-size: 45px;
     color: #eee;
 }
 .content p{
     width: 70%;
-    padding-top: 1em;
+    padding-top: 1.5em;
     font-weight: 400;
     color: #eee;
 }
@@ -52,6 +53,7 @@ main{
     width: 1auto;
     padding: 3em;
     border-radius: 10px;
+    box-shadow: 0 7px 1px rgba(0, 0, 0, 0, 0.124);
 }
 .form{
     padding: 10px;
@@ -73,6 +75,7 @@ main{
     width: 100%;
     margin-bottom: 5%;
     background-color: hsl(248, 32%, 49%);
+    box-shadow: 0 7px 1px rgba(0, 0, 0, 0, 0.124);
 }
 input[type='submit']{
     background-color: hsl(154, 59%, 51%);
@@ -97,7 +100,16 @@ input[type='submit']:hover{
         background-repeat: no-repeat;
         background-size: cover;
         width: auto;
-        min-height: 100vh;
+        min-height: 100vh;   
+    }
+    .container{
+        flex-direction: column;
+        padding: 25px;
+        width: 100%;
+        padding: 25px;
+    }
+    .form-box{
+        width: 100%;
     }
  }
  @media (max-width: 1440px) {
