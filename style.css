@@ -18,7 +18,7 @@ main{
 .container{
     display: flex;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     margin: auto;
     height: auto;
     padding: 4em;
